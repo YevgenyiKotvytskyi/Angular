@@ -13,7 +13,7 @@ export interface Section {
 
 
 export class AppComponent {
-  title = 'users-list';
+  title = 'Список пользователей';
   typesOfShoes: string[] = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
   notes:Section[]  = [
     {
