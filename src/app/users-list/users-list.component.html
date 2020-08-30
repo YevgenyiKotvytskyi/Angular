@@ -1,0 +1,14 @@
+
+<p> Список пользователей </p> 
+
+
+<mat-selection-list #users>
+  <mat-list-option *ngFor="let user of usersList">
+    {{user.username}},
+    {{user.name}}
+  </mat-list-option>
+</mat-selection-list>
+
+<p>
+  Выбрано пользователей: {{users.selectedOptions.selected.length}}
+</p>
