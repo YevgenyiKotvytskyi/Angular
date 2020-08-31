@@ -4,8 +4,8 @@
 
 <mat-selection-list #users>
   <mat-list-option *ngFor="let user of usersList">
-    {{user.username}},
-    {{user.name}}
+    <p><span>{{user.username}}</span>
+    <span>{{user.name}}</span></p>
   </mat-list-option>
 </mat-selection-list>
 
